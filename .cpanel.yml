@@ -4,4 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/graceklr/public_html/api/
     - /bin/mkdir -p $DEPLOYPATH
     - /bin/rm -R $DEPLOYPATH*
-    # - /bin/cp -R api/* $DEPLOYPATH
+    - /bin/cp -R api/* $DEPLOYPATH
