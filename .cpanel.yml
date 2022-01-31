@@ -2,5 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/graceklr/public_html/api/
-    - /bin/rm -R $DEPLOYPATH
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/rm -R $DEPLOYPATH*
+    - /bin/cp -R api/* $DEPLOYPATH
+

@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://gracelandlife.co.za/laravel'),
+    'url' => env('APP_URL', 'https://gracelandlife.co.za/api'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY','ipwteigwdgeavdy6ushkzelawiefx3vb'),
+    'key' => env('APP_KEY','so24opcxsuhuhghwq3ecsjxyqpgsrrv9'),
 
     'cipher' => 'AES-256-CBC',
 
